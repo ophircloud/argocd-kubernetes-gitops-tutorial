@@ -15,7 +15,7 @@ To follow along with this tutorial, you'll need:
 helm repo add argo https://argoproj.github.io/argo-helm
 helm repo update
 kubectl create namespace argocd
-helm install argocd argo/argo-cd --namespace argocd --version 7.7.0
+helm install argocd argo/argo-cd --namespace argocd --version 9.3.4
 ```
 
 ## Access ArgoCD UI
